@@ -15,6 +15,11 @@ func question2() {
 		s = append(s, i)
 		fmt.Printf("After appending %d: slice=%v, length=%d, capacity=%d\n", i, s, len(s), cap(s))
 	}
+	// b := [15]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+	// for i, v := range b {
+	// 	s = append(s, v)
+	// 	fmt.Printf("After appending index %d, value=%d, slice=%v, length=%d, capacity=%d\n", i, v, s, len(s), cap(s))
+	// }
 }
 
 // 3. Write a function that takes a slice of integers and returns a new slice containing only the even numbers from the original slice.
@@ -29,7 +34,7 @@ func filterEven(nums []int) []int {
 }
 
 func SliceExamples() {
-	question1()
-	question2()
+	// question1()
+	// question2()
 	fmt.Println("Even numbers:", filterEven([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}))
 }
