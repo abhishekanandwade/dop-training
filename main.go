@@ -1,12 +1,9 @@
 package main
 
-import (
-	"training/datatypes"
-)
-
 func main() {
-	// datatypes.Variables()
-	// datatypes.DemonstrateUserFunctions()
-	datatypes.Arrays()
+	// variables.Variables()
+	// variables.DemonstrateUserFunctions()
+	// arrays.Arrays()
+	// arrays.LoopsSolutions()
 
 }

@@ -1,4 +1,4 @@
-package datatypes
+package variables
 
 import (
 	"fmt"
