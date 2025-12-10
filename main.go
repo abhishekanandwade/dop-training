@@ -6,5 +6,7 @@ import (
 
 func main() {
 	// datatypes.Variables()
-	datatypes.DemonstrateUserFunctions()
+	// datatypes.DemonstrateUserFunctions()
+	datatypes.Arrays()
+
 }
