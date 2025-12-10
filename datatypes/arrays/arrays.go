@@ -6,6 +6,10 @@ func Arrays() {
 	var b = [5]int{10, 20, 30, 40, 50} //length 5 of integers. Index starts from 0 to 4
 	fmt.Println("Array is:", b)
 
+	const n = 3 //constant
+
+	// const c int = 7
+	// var d [c]int
 	var a [5]int //length 5 of integers. Index starts from 0 to 4
 	fmt.Println(a)
 	fmt.Println("Length of array a:", len(a))
