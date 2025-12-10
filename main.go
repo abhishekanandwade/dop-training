@@ -10,6 +10,7 @@ func main() {
 	// arrays.Arrays()
 	// arrays.LoopsSolutions()
 	// arrays.ArraysSolutions()
-	slices.Slices()
+	// slices.Slices()
+	slices.SliceExamples()
 
 }
