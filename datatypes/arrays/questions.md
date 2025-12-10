@@ -15,3 +15,5 @@ Questions on Loops:
 6. Given an array [1, 2, 3, 4, 5, 2, 2, 1, 3, 2], count how many times 2 appears in the array and print the count.
 
 7. Scan the array from left to right and return the first odd value you encounter. [2, 4, 6, 8, 9, 10, 12] and print the odd number. (use break statement)
+
+8. Scan the array from left to right and print all odd values you encounter. [2, 4, 6, 8, 9, 10, 11, 13, 14] (use continue statement)
