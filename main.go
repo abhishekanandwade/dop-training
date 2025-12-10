@@ -1,8 +1,6 @@
 package main
 
-import (
-	"training/datatypes/slices"
-)
+import "training/datatypes/maps"
 
 func main() {
 	// variables.Variables()
@@ -11,6 +9,7 @@ func main() {
 	// arrays.LoopsSolutions()
 	// arrays.ArraysSolutions()
 	// slices.Slices()
-	slices.SliceExamples()
+	// slices.SliceExamples()
+	maps.Maps()
 
 }

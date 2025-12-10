@@ -1,5 +1,7 @@
 package slices
 
+import "fmt"
+
 func Slices() {
 	// var b [5]float32
 	// b[0] = 10.5
@@ -31,4 +33,24 @@ func Slices() {
 	// fmt.Println("Length of slice d after appending elements:", len(d))
 	// fmt.Println("Capacity of slice d after appending elements:", cap(d))
 
+	var a = []int{0, 1, 2, 3, 4, 5}
+
+	b := a[:3]  //index 0,1,2 (3rd element)
+	c := a[3:]  //index 3,4,5 (from 4th element to end)
+	d := a[2:5] //index 2,3,4    [included:excluded]
+	e := []int{1, 2, 3, 4, 5, 6}
+	f := e[:3]
+	g := e[3:]
+	h := e[1:4]
+	i := e[:6]
+
+	fmt.Println("Original slice a:", a)
+	fmt.Println("Slice b:", b)
+	fmt.Println("Slice c:", c)
+	fmt.Println("Slice d:", d)
+	fmt.Println("Original slice e:", e)
+	fmt.Println("Slice f:", f)
+	fmt.Println("Slice g:", g)
+	fmt.Println("Slice h:", h)
+	fmt.Println("Slice i:", i)
 }
