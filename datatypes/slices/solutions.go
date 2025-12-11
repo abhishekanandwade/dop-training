@@ -108,3 +108,18 @@ func SplitFixed(nums []int) ([]int, []int, []int) {
 	s3 := nums[6:]
 	return s1, s2, s3
 }
+
+// func SplitFixed(nums []int) [][]int {
+// 	chunkSize := 3
+// 	result := make([][]int, 0)
+
+// 	for i := 0; i < len(nums); i += chunkSize {
+// 		end := i + chunkSize
+// 		if end > len(nums) {
+// 			end = len(nums)
+// 		}
+// 		result = append(result, nums[i:end])
+// 	}
+
+// 	return result
+// }
