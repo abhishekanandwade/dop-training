@@ -12,6 +12,7 @@ func addStudent(scores map[string]int, name string, score int) {
 	_, exists := scores[name]
 	if exists {
 		fmt.Printf("student %q already exists\n", name)
+		fmt.Println("---", scores)
 		return
 	}
 	scores[name] = score

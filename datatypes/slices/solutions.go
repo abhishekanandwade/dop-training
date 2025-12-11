@@ -106,6 +106,8 @@ func SplitFixed(nums []int) ([]int, []int, []int) {
 	s1 := nums[:3]
 	s2 := nums[3:6]
 	s3 := nums[6:]
+	s3[0] = 0
+	fmt.Println("Nums: ", nums)
 	return s1, s2, s3
 }
 

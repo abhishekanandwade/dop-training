@@ -1,8 +1,6 @@
 package main
 
-import (
-	"training/datatypes/structs"
-)
+import "training/datatypes/structs"
 
 func main() {
 	// variables.Variables()
@@ -22,5 +20,5 @@ func main() {
 	// maps.StudentMap()
 
 	structs.StudentDemo()
-
+	// pointers.Pointers()
 }
