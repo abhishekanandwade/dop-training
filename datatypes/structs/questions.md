@@ -37,3 +37,8 @@ Person:   -
    - Address (Address)
 
     Create a Person with an Address and print both.
+
+
+---------------------------------------------------------------------------
+
+Design a Go-based Employee Management System using structs (Employee, Department, Project,AttendanceRecord) that incorporates multiple datatype and supports operations such as adding, updating, removing employees, assigning departments, searching, filtering.
