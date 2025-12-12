@@ -19,6 +19,8 @@ func main() {
 
 	// maps.StudentMap()
 
-	structs.StudentDemo()
+	// structs.StudentDemo()
 	// pointers.Pointers()
+
+	structs.StructExamples()
 }
