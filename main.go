@@ -1,6 +1,9 @@
 package main
 
-import "training/datatypes/structs"
+import (
+	"log"
+	"training/datatypes/api"
+)
 
 func main() {
 	// variables.Variables()
@@ -22,5 +25,9 @@ func main() {
 	// structs.StudentDemo()
 	// pointers.Pointers()
 
-	structs.StructExamples()
+	// structs.StructExamples()
+
+	if err := api.StartServer(":8080"); err != nil {
+		log.Fatalf("server error: %v", err)
+	}
 }
